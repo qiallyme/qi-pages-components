@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QiAlly Project Portal - Welcome / QiAlly 101</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f4f9;
+        }
+        .container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #1a5c68;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 5px;
+            margin-top: 25px;
+        }
+        h1 {
+            border-bottom: 3px solid #1a5c68;
+            padding-bottom: 10px;
+        }
+        ul {
+            list-style: disc;
+            margin-left: 20px;
+            padding-left: 0;
+        }
+        .section-box {
+            background-color: #f9f9f9;
+            border: 1px solid #eee;
+            padding: 15px;
+            border-radius: 6px;
+            margin-top: 15px;
+        }
+        .task {
+            border-left: 4px solid #4CAF50;
+            padding-left: 15px;
+            margin-bottom: 15px;
+        }
+        .task strong {
+            display: block;
+            font-size: 1.1em;
+            margin-bottom: 5px;
+            color: #4CAF50;
+        }
+        .requirement {
+            font-style: italic;
+            color: #666;
+            margin-top: 5px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to QiAlly</h1>
+        <p>This portal is your **HQ for the project**. Every file, task, and message lives here so you never lose track.</p>
+
+        <h2>Who We Are</h2>
+        <p>QiAlly builds and manages websites with clarity, structure, and ongoing support.</p>
+
+        <h2>What We Do</h2>
+        <ul>
+            <li>Design and launch your website</li>
+            <li>Keep the process organized in clear steps</li>
+            <li>Provide ongoing support through this portal</li>
+        </ul>
+
+        <h2>What We Don't Do</h2>
+        <ul>
+            <li>Add endless extras outside of scope</li>
+            <li>Promise 24-hour miracle turnarounds</li>
+            <li>Write your content from scratch if you never upload it</li>
+        </ul>
+
+        <h2>What We Expect From You</h2>
+        <ul>
+            <li>Upload files promptly</li>
+            <li>Communicate inside this portal</li>
+            <li>Give clear, consolidated feedback</li>
+            <li>Respect timelines so the project doesn’t stall</li>
+        </ul>
+
+        <h2>How To Use This Portal</h2>
+        <div class="section-box">
+            <ul>
+                <li>**Tasks:** Action items for you and us</li>
+                <li>**Files:** Upload and download documents</li>
+                <li>**Messages:** All communication threads stay here</li>
+                <li>**Forms:** Fill out structured questionnaires or feedback</li>
+                <li>**Status:** Current stage + next milestone</li>
+            </ul>
+        </div>
+        
+        <h1>Stage 1 Tasks</h1>
+        <p>By completing these, you ensure you've read the rules, can navigate, and are ready to proceed to Intake & Onboarding.</p>
+
+        <div class="task">
+            <strong>Task 1: Read QiAlly 101</strong>
+            <p>Quick intro to who we are, what we do, and how this portal works.</p>
+            <p>✅ Please also review the QiAlly 101 page in the portal. Mark complete once read.</p>
+        </div>
+
+        <div class="task">
+            <strong>Task 2: Confirm Understanding</strong>
+            <p>Check the box or acknowledge here that you’ve read QiAlly 101 and understand how we work together.</p>
+            <p class="requirement">Requirement: client mark complete. Optional: add checklist items like “I understand portal use” / “I know how to send files”.</p>
+        </div>
+
+        <div class="task">
+            <strong>Task 3: Meet Your Portal</strong>
+            <p>Explore the tabs in your portal:</p>
+            <ul>
+                <li>Welcome (this page)</li>
+                <li>Tasks (to-dos)</li>
+                <li>Files (upload/download)</li>
+                <li>Messages (for comms)</li>
+                <li>Forms (Discovery & Feedback)</li>
+                <li>Status (where we are in the project)</li>
+            </ul>
+            <p>✅ Mark this task complete once you’ve clicked around.</p>
+        </div>
+
+        <div class="task">
+            <strong>Task 4: Say Hello</strong>
+            <p>Open a Message thread and just say hi. This ensures you know how to send messages in the portal.</p>
+            <p class="requirement">Requirement: client message before task completion.</p>
+        </div>
+        
+    </div>
+</body>
+</html>
