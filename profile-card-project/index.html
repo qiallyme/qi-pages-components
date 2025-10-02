@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card Widget</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: transparent;
+            padding: 16px;
+        }
+        
+        .profile-card {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            max-width: 320px;
+            text-align: center;
+            border: 1px solid #e5e7eb;
+        }
+        
+        .profile-card.dark {
+            background: #1f2937;
+            color: white;
+            border-color: #374151;
+        }
+        
+        .profile-card.blue {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+        }
+        
+        .profile-card.green {
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            color: white;
+            border: none;
+        }
+        
+        .avatar {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin: 0 auto 16px;
+            display: block;
+            object-fit: cover;
+            border: 3px solid #f3f4f6;
+        }
+        
+        .profile-card.dark .avatar {
+            border-color: #374151;
+        }
+        
+        .profile-card.blue .avatar,
+        .profile-card.green .avatar {
+            border-color: rgba(255, 255, 255, 0.3);
+        }
+        
+        .name {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 4px;
+            color: inherit;
+        }
+        
+        .title {
+            font-size: 14px;
+            color: #6b7280;
+            margin-bottom: 16px;
+        }
+        
+        .profile-card.dark .title {
+            color: #9ca3af;
+        }
+        
+        .profile-card.blue .title,
+        .profile-card.green .title {
+            color: rgba(255, 255, 255, 0.8);
+        }
+        
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            margin-top: 16px;
+        }
+        
+        .contact-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 8px 12px;
+            background: #f3f4f6;
+            border: none;
+            border-radius: 6px;
+            font-size: 12px;
+            text-decoration: none;
+            color: #374151;
+            transition: all 0.2s;
+        }
+        
+        .contact-btn:hover {
+            background: #e5e7eb;
+            transform: translateY(-1px);
+        }
+        
+        .profile-card.dark .contact-btn {
+            background: #374151;
+            color: #d1d5db;
+        }
+        
+        .profile-card.dark .contact-btn:hover {
+            background: #4b5563;
+        }
+        
+        .profile-card.blue .contact-btn,
+        .profile-card.green .contact-btn {
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+        }
+        
+        .profile-card.blue .contact-btn:hover,
+        .profile-card.green .contact-btn:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+        
+        .size-small .profile-card {
+            padding: 16px;
+            max-width: 240px;
+        }
+        
+        .size-small .avatar {
+            width: 60px;
+            height: 60px;
+        }
+        
+        .size-small .name {
+            font-size: 16px;
+        }
+        
+        .size-small .title {
+            font-size: 12px;
+        }
+        
+        .size-large .profile-card {
+            padding: 32px;
+            max-width: 400px;
+        }
+        
+        .size-large .avatar {
+            width: 100px;
+            height: 100px;
+        }
+        
+        .size-large .name {
+            font-size: 24px;
+        }
+        
+        .size-large .title {
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div id="profile-card-container">
+        <!-- Profile card will be rendered here -->
+    </div>
+    <script src="profile-card.js"></script>
+</body>
+</html>
